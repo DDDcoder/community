@@ -1,0 +1,23 @@
+{
+  "vendor" : "Oracle",
+  "product" : "OpenJDK",
+  "default" : true,
+  "jdk_version_major" : 20,
+  "jdk_version" : "20.0.1",
+  "suggested_sdk_name" : "openjdk-20",
+  "shared_index_aliases" : [ "openjdk-20.0.1", "openjdk-20", "20.0.1", "20" ],
+  "packages" : [ {
+    "os" : "windows",
+    "arch" : "x86_64",
+    "url" : "https://download.java.net/java/GA/jdk20.0.1/b4887098932d415489976708ad6d1a4b/9/GPL/openjdk-20.0.1_windows-x64_bin.zip",
+    "package_type" : "zip",
+    "unpack_prefix_filter" : "jdk-20.0.1",
+    "package_root_prefix" : "jdk-20.0.1",
+    "package_to_java_home_prefix" : "",
+    "archive_file_name" : "openjdk-20.0.1_windows-x64_bin.zip",
+    "install_folder_name" : "openjdk-20.0.1",
+    "archive_size" : 196196979,
+    "unpacked_size" : 327726486,
+    "sha256" : "31ca4a8cbdea1da7fb441194e756dd1adbedfc05bd1135a1ecc46b4288ea8942"
+  } ]
+}

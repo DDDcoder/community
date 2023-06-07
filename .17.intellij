@@ -1,0 +1,22 @@
+{
+  "vendor" : "Amazon",
+  "product" : "Corretto",
+  "jdk_version_major" : 17,
+  "jdk_version" : "17.0.7",
+  "suggested_sdk_name" : "corretto-17",
+  "shared_index_aliases" : [ "corretto-17.0.7", "corretto-17", "17.0.7", "17" ],
+  "packages" : [ {
+    "os" : "windows",
+    "arch" : "x86_64",
+    "url" : "https://corretto.aws/downloads/resources/17.0.7.7.1/amazon-corretto-17.0.7.7.1-windows-x64-jdk.zip",
+    "package_type" : "zip",
+    "unpack_prefix_filter" : "jdk17.0.7_7",
+    "package_root_prefix" : "jdk17.0.7_7",
+    "package_to_java_home_prefix" : "",
+    "archive_file_name" : "amazon-corretto-17.0.7.7.1-windows-x64-jdk.zip",
+    "install_folder_name" : "corretto-17.0.7",
+    "archive_size" : 186707306,
+    "unpacked_size" : 315310578,
+    "sha256" : "30abe688921766d78bc3db20b658b88dd2f0b1f354d3e978230ac0fd58b79e0c"
+  } ]
+}
