@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class indexController {
-    @GetMapping("/")
+    @GetMapping("/") //根目录
     public String index(){return "index";}
 }
